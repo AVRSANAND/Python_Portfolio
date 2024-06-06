@@ -22,3 +22,9 @@ with col2:
     I am currently learning and experimenting various things in python.  
     """
     st.info(content)
+
+content2 = """
+Below you can find some of the apps I have build in Python. 
+Feel free to contact me throught any of the social media apps such as Linkedln, Twitter (X), Instagram etc.. Cheers!
+"""
+st.write(content2)
