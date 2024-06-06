@@ -1,14 +1,9 @@
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(layout="wide")
 
 st.title("Welcome to my personal portfolio")
-# st.write("Will be adding all the python related projects in here :)")
-
-# st.write("Check out my [GitHub](https://github.com/avrsanand)")
-# st.write("Check out my [LinkedIn](https://www.linkedin.com/in/avrsanand/)")
-# st.subheader("Python Simple Todo App")
-# st.subheader("Zip Archive creator & extractor")
 
 col1, col2 = st.columns(2)
 
@@ -18,9 +13,19 @@ with col1:
 with col2:
     st.title("AVRS ANAND")
     content = """
-    Hi, I am Anand! I am a Python programmer, and I love to build projects. 
-    I am currently learning and experimenting various things in python.  
+    Hi, I am Anand! 
+    Welcome to my dedicated Python portfolio!
+    
+    I am a computer science graduate from the class of 2024, with a strong passion for programming and problem-solving. My journey in the tech world has led me to specialize in Python, a versatile and powerful language that I continually learn and experiment with.
+
+    This portfolio showcases a variety of projects I've developed, ranging from simple scripts to more complex applications. Each project includes detailed descriptions and source codes, reflecting my commitment to writing clean, efficient, and well-documented code. I believe in continuous learning and regularly update my skills to keep pace with the ever-evolving tech landscape.
+
+    In addition to Python, I am well-versed in other programming languages and technologies, which enables me to approach problems from different angles and provide robust solutions. My interest areas include data analysis, web development, and automation, and I am always on the lookout for new challenges to tackle.
+
+    Feel free to explore my projects and get in touch if you have any questions or collaboration ideas. I am excited to share my work with you and look forward to connecting with fellow enthusiasts and professionals.
     """
+
+
     st.info(content)
 
 content2 = """
@@ -28,3 +33,17 @@ Below you can find some of the apps I have build in Python.
 Feel free to contact me throught any of the social media apps such as Linkedln, Twitter (X), Instagram etc.. Cheers!
 """
 st.write(content2)
+
+data = pd.read_csv("data.csv", sep=";")
+
+col3, col4 = st.columns(2)
+
+df = pd.read_csv("data.csv", sep=";")
+
+with col3:
+    for index, row in df[:10].iterrows():
+        st.header(row["title"])
+
+with col4:
+    for index, row in df[10:].iterrows():
+        st.header(row["title"])
