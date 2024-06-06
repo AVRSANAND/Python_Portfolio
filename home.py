@@ -34,16 +34,22 @@ Feel free to contact me throught any of the social media apps such as Linkedln, 
 """
 st.write(content2)
 
-data = pd.read_csv("data.csv", sep=";")
+col3, empty_col, col4 = st.columns([1.5, 0.5, 1.5])
 
-col3, col4 = st.columns(2)
-
-df = pd.read_csv("data.csv", sep=";")
+df = pd.read_csv("current_data.csv", sep=";")
 
 with col3:
-    for index, row in df[:10].iterrows():
+    for index, row in df[:1].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['git_url']})")
+        st.write(f"[Live Demo]({row['live_url']})")
 
 with col4:
-    for index, row in df[10:].iterrows():
+    for index, row in df[1:].iterrows():
         st.header(row["title"])
+        st.write(row["description"])
+        st.image("images/" + row["image"])
+        st.write(f"[Source Code]({row['git_url']})")
+        st.write(f"[Live Demo]({row['live_url']})")
