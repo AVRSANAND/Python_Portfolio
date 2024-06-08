@@ -11,8 +11,14 @@ st.write("GitHub: [AVRSANAND](https://github.com/AVRSANAND)")
 
 with st.form(key="contact_form"):
     user_email = st.text_input("Your email address")
-    user_message = st.text_area("Your message...")
-    user_message = user_message + "\n" + user_email
+    raw_message = st.text_area("Your message...")
+    user_message = f"""\
+Subject: New email from {user_email}
+
+From: {user_email}
+{raw_message}
+"""
     submit_button = st.form_submit_button(label="Submit")
     if submit_button:
         send_email(user_message)
+        st.info("Your email was sent successfully! Thank you!")
