@@ -20,7 +20,7 @@ with col2:
 
     This portfolio showcases a variety of projects I've developed, ranging from simple scripts to more complex applications. Each project includes detailed descriptions and source codes, reflecting my commitment to writing clean, efficient, and well-documented code. I believe in continuous learning and regularly update my skills to keep pace with the ever-evolving tech landscape.
 
-    In addition to Python, I am well-versed in other programming languages and technologies, which enables me to approach problems from different angles and provide robust solutions. My interest areas include data analysis, web development, and automation, and I am always on the lookout for new challenges to tackle.
+    My interest areas include data analysis, web development, and automation, and I am always on the lookout for new challenges to tackle.
 
     Feel free to explore my projects and get in touch if you have any questions or collaboration ideas. I am excited to share my work with you and look forward to connecting with fellow enthusiasts and professionals.
     """
@@ -30,7 +30,7 @@ with col2:
 
 content2 = """
 Below you can find some of the apps I have build in Python. 
-Feel free to contact me throught any of the social media apps such as Linkedln, Twitter (X), Instagram etc.. Cheers!
+Feel free to reach out either from Contact Page or through Linkedln Cheers!
 """
 st.write(content2)
 
