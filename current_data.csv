@@ -1,5 +1,6 @@
 title;description;image;git_url;live_url
 Todo App;A distraction-free web app to help you focus on creating and completing tasks.;1.png;https://github.com/AVRSANAND/Web_Simple_Todo;https://avrsanand-web-simple-todo.streamlit.app/
 Portfolio Website;A website built entirely in Python to showcase python projects and apps.;2.png;https://github.com/AVRSANAND/Python_Portfolio;https://avrsanand-python-portfolio-home.streamlit.app/
-PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;3.png;https://github.com/AVRSANAND/PDF_Generator;"No Live Demo exists"
-PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;4.png;https://github.com/AVRSANAND/PDF_Invoices;"No Live Demo exists"
+PDF Templates;A script that generates PDF templates of multiple pages given some predefined guidelines.;3.png;https://github.com/AVRSANAND/PDF_Generator;"No Live Demo"
+PDF Invoices;A script that reads invoice records from Excel files and automatically generates PDF invoices.;4.png;https://github.com/AVRSANAND/PDF_Invoices;"No Live Demo"
+News Articles to Mail;A script that utilizes newsapi.org's api to send news articles over specified topic to requested email;5.png;https://github.com/AVRSANAND/News_to_Mail;"No Live Demo"
