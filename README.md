@@ -67,3 +67,43 @@ Feel free to reach out through the Contact Page or connect with me on LinkedIn. 
 - requests
 - smtplib
 - ssl
+
+### Projects
+Here are the projects included in this portfolio:
+
+1. **Todo App**
+    - **Description**: A distraction-free web app to help you focus on creating and completing tasks.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/Web_Simple_Todo)
+    - **Live Demo**: [Demo](https://avrsanand-web-simple-todo.streamlit.app/)
+
+2. **Portfolio Website**
+    - **Description**: A website built entirely in Python to showcase python projects and apps.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/Python_Portfolio)
+    - **Live Demo**: [Demo](https://avrsanand-python-portfolio-home.streamlit.app/)
+
+3. **PDF Templates**
+    - **Description**: A script that generates PDF templates of multiple pages given some predefined guidelines.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/PDF_Generator)
+    - **Live Demo**: No Live Demo
+
+4. **PDF Invoices**
+    - **Description**: A script that reads invoice records from Excel files and automatically generates PDF invoices.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/PDF_Invoices)
+    - **Live Demo**: No Live Demo
+
+5. **News Articles to Mail**
+    - **Description**: A script that utilizes newsapi.org's api to send news articles over a specified topic to requested email.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/News_to_Mail)
+    - **Live Demo**: No Live Demo
+
+6. **Weather API**
+    - **Description**: A REST API built with Python and Flask to serve historical weather data for various cities.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/Weather_API)
+    - **Live Demo**: No Live Demo
+
+7. **Weather Forecast Website**
+    - **Description**: A website built to forecast weather data such as temperature and sky conditions.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/Weather_Forecast_WebApp)
+    - **Live Demo**: [Demo](https://avrsanand-weather-forecast-webapp.streamlit.app/)
+
+
