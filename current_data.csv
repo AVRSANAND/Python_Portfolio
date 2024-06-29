@@ -6,3 +6,4 @@ PDF Invoices;A script that reads invoice records from Excel files and automatica
 News Articles to Mail;A script that utilizes newsapi.org's api to send news articles over specified topic to requested email;5.png;https://github.com/AVRSANAND/News_to_Mail;"No Live Demo"
 Weather API;A REST API built with Python and Flask to serve historical weather data for various cities.;6.png;https://github.com/AVRSANAND/Weather_API;"No Live Demo"
 Weather Forecast Website;A website built to forecast weather data such as temperature and sky conditions.;21.png;https://github.com/AVRSANAND/Weather_Forecast_WebApp;https://avrsanand-weather-forecast-webapp.streamlit.app/
+Book Sentiment Analysis;A script to analyze the sentiment of the book by its chapters.;22.png;https://github.com/AVRSANAND/Book_Analysis;"No Live Demo"
