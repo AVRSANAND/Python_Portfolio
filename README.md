@@ -3,6 +3,9 @@
 ## Overview
 This project is a personal portfolio showcasing various Python projects developed by AVRS Anand. The portfolio is built using Streamlit and includes detailed descriptions, images, source code links, and live demos of each project.
 
+## Live Demo
+View it live [here](https://avrsanand-python-portfolio-home.streamlit.app/)
+
 ## Features
 - **Project Showcase**: Displays a list of Python projects with descriptions, images, source code links, and live demo links.
 - **Contact Information**: Provides information on how to reach out for questions or collaborations.
@@ -106,4 +109,8 @@ Here are the projects included in this portfolio:
     - **Source Code**: [GitHub](https://github.com/AVRSANAND/Weather_Forecast_WebApp)
     - **Live Demo**: [Demo](https://avrsanand-weather-forecast-webapp.streamlit.app/)
 
+8. **Book Sentiment Analysis**
+    - **Description**: A script to analyze the sentiment of the book by its chapters.
+    - **Source Code**: [GitHub](https://github.com/AVRSANAND/Book_Analysis)
+    - **Live Demo**: No Live Demo
 
