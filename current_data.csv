@@ -8,3 +8,4 @@ Weather API;A REST API built with Python and Flask to serve historical weather d
 Weather Forecast Website;A website built to forecast weather data such as temperature and sky conditions.;21.png;https://github.com/AVRSANAND/Weather_Forecast_WebApp;https://avrsanand-weather-forecast-webapp.streamlit.app/
 Book Sentiment Analysis;A script to analyze the sentiment of the book by its chapters.;22.png;https://github.com/AVRSANAND/Book_Analysis;"No Live Demo"
 Intruder Detector;A program that monitors the computer webcam and sends an email when a new object enters the view.;11.png;https://github.com/AVRSANAND/Intruder_Detection;"No Live Demo"
+Web Scraper;A program that checks a music band's website and sends an email when there are new tours.8.png;https://github.com/AVRSANAND/Web_Scraper;"No Live Demo"
