@@ -9,6 +9,10 @@ st.write("LinkedIn: [AVRSANAND](https://www.linkedin.com/in/avrsanand/)")
 
 st.write("GitHub: [AVRSANAND](https://github.com/AVRSANAND)")
 
+st.write("X (Twitter): [AVRSANAND](https://x.com/AvrsAnand)")
+
+st.write("Reddit: [AVRSANAND](https://www.reddit.com/user/Small_Bell8272/)")
+
 with st.form(key="contact_form"):
     user_email = st.text_input("Your email address")
     raw_message = st.text_area("Your message...")
